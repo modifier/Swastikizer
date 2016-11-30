@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Swastikizer</title>
+		<link rel="stylesheet" type="text/css" href="themes.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="colorpicker.js"></script>
+		<script type="text/javascript" src="swastikizer.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="flag-container">
+			<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1000 600" class="swastika">
+				<rect width="1000" height="600" fill="#d00" id="swastika__rect" />
+				<circle cx="450" cy="300" r="225" fill="#fff" id="swastika__circle" />
+				<path d="M 600,180 h -150 v 240 h -150 M 330,150 v 150 h 240 v 150" transform="rotate(45 450,300)" fill="none" stroke="#000" stroke-width="60" id="swastika__shape" />
+			</svg>
+			<div class="swastika-toolbar">
+				<div class="swastika-toolbar__picker">
+					<div class="cp-default" id="rect-picker"></div>
+					<div class="swastika-toolbar__colorbox" id="rect-colorbox"></div>
+				</div>
+				<div class="swastika-toolbar__picker">
+					<div class="cp-default" id="circle-picker"></div>
+					<div class="swastika-toolbar__colorbox" id="circle-colorbox"></div>
+				</div>
+				<div class="swastika-toolbar__picker">
+					<div class="cp-default" id="shape-picker"></div>
+					<div class="swastika-toolbar__colorbox" id="shape-colorbox"></div>
+				</div>
+			</div>
+		</div>
+		<div class="samples-container">
+			<div class="sample sample-secondreich" data-color1="#000000" data-color2="#FFFFFF" data-color3="#DD0000" title="Second Reich"></div>
+			<div class="sample sample-russia" data-color1="#ffffff" data-color2="#0039a6" data-color3="#d52b1e" title="Russia"></div>
+			<div class="sample sample-empire" data-color1="#000000" data-color2="#FFCD01" data-color3="#FFFFFF" title="Russian Empire"></div>
+			<div class="sample sample-netherlands" data-color1="#AE1C28" data-color2="#FFFFFF" data-color3="#21468B" title="Netherlands"></div>
+			<div class="sample sample-germany" data-color1="#000000" data-color2="#DD0000" data-color3="#FFCE00" title="Germany"></div>
+			<div class="sample sample-hungary" data-color1="#CD2A3E" data-color2="#FFFFFF" data-color3="#436F4D" title="Hungary"></div>
+			<div class="sample sample-estonia" data-color1="#0072CE" data-color2="#000000" data-color3="#FFFFFF" title="Estonia"></div>
+			<div class="sample sample-lithuania" data-color1="#FDB913" data-color2="#006A44" data-color3="#C1272D" title="Lithuania"></div>
+			<div class="sample sample-armenia" data-color1="#D90012" data-color2="#0033A0" data-color3="#F2A800" title="Armenia"></div>
+			<div class="sample sample-bulgaria" data-color1="#FFFFFF" data-color2="#00966E" data-color3="#D62612" title="Bulgaria"></div>
+			<div class="sample sample-sierraleone" data-color1="#1EB53A" data-color2="#FFFFFF" data-color3="#0072C6" title="Sierra Leone"></div>
+			<div class="sample sample-lugania" data-color1="#64C8FF" data-color2="#0039A6" data-color3="#F00000" title="Lugania"></div>
+			<div class="sample sample-ethiopia" data-color1="#078930" data-color2="#FCDD09" data-color3="#DA121A" title="Ethiopia"></div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+html, body {
+	background-color: #fffcf3;
+}
+
+.swastika {
+	display: inline-block;
+}
+
+.swastika-toolbar {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 20px 20px;
+}
+
+.swastika-toolbar__picker {
+	clear: both;
+	margin: 10px 0;
+}
+
+.swastika-toolbar__picker .cp-default {
+	box-shadow: none;
+	display: inline-block;
+}
+
+.swastika-toolbar__colorbox {
+	display: inline-block;
+	border: 3px #000 solid;
+	width: 50px;
+	height: 200px;
+	margin: 12px;
+	border-radius: 3px;
+}
+
+.swastika-toolbar__picker:first-child {
+	margin-top: 0;
+}
+
+.sample {
+	width: 90px;
+	height: 60px;
+	background-color: #000;
+	display: inline-block;
+	margin: 10px;
+	cursor: pointer;
+	border: 1px #999 solid;
+}
+
+.sample__strip {
+	width: 90px;
+	height: 20px;
+}
